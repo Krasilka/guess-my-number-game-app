@@ -5,18 +5,11 @@
 <img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/80c82001-f1b5-41f5-8e37-c6afd2cc69da" alt="GameScreenWithLogging" width="200">
 <img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/cfe67908-3b0d-4163-a0e0-13c7c4994567" alt="GameOverScreen" width="200">
 
-
-#TODO: 
 ## Steps to run the project:
 
 ### Prerequisites:
 
-1. Ensure that you have Node.js and npm installed on your machine. You can download and install them from the official website: [Node.js](https://nodejs.org/en).
-2. Install Expo CLI globally on your machine using the following command in your terminal:
-
-   ```
-   npm install -g expo-cli
-   ```
+Ensure that you have Node.js and npm installed on your machine. You can download and install them from the official website: [Node.js](https://nodejs.org/en).
 
 ### Steps:
 
@@ -37,7 +30,15 @@
   cd <project-directory>
   ```
 
-3. **Install Dependencies:**
+3. **Install Expo-CLI Locally:**
+
+- Install Expo CLI locally as a development dependency:
+
+```
+npm install --save-dev expo-cli
+```
+
+4. **Install Dependencies:**
 
 - Run the following command to install the project dependencies:
 
@@ -50,7 +51,7 @@
 - Once the installation is complete, start the Expo development server:
 
   ```
-  expo start
+  npm start
   ```
 
 5. **Run on Emulator or Physical Device:**
