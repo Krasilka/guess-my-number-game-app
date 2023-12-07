@@ -1,20 +1,20 @@
-import { useState } from "react";
-import { TextInput, View, StyleSheet, Alert, Text } from "react-native";
-import Colors from "../utils/colors";
-import PrimaryButton from "../components/PrimaryButton";
-import Title from "../components/Title";
-import Card from "../components/Card";
-import InstructionText from "../components/InstructionText";
+import { useState } from 'react';
+import { TextInput, View, StyleSheet, Alert, Text } from 'react-native';
+import Colors from '../utils/colors';
+import PrimaryButton from '../components/ui/PrimaryButton';
+import Title from '../components/ui/Title';
+import Card from '../components/ui/Card';
+import InstructionText from '../components/ui/InstructionText';
 
 function StartGameScreen({ onPickNumber }) {
-  const [enteredNumber, setEnteredNumber] = useState("");
+  const [enteredNumber, setEnteredNumber] = useState('');
 
   function numberInputHandler(enteredText) {
     setEnteredNumber(enteredText);
   }
 
   function resetInputHandler() {
-    setEnteredNumber("");
+    setEnteredNumber('');
   }
 
   function confirmInputHandler() {
@@ -22,9 +22,9 @@ function StartGameScreen({ onPickNumber }) {
 
     if (isNaN(chosenNumber) || chosenNumber <= 0 || chosenNumber > 99) {
       Alert.alert(
-        "Invalid number!",
-        "Number has to be a number between 1 and 99",
-        [{ text: "OK", style: "destructive", onPress: resetInputHandler }]
+        'Invalid number!',
+        'Number has to be a number between 1 and 99',
+        [{ text: 'OK', style: 'destructive', onPress: resetInputHandler }]
       );
       return;
     }
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: 100,
-    alignItems: "center",
+    alignItems: 'center',
   },
   numberInput: {
     height: 50,
@@ -76,12 +76,12 @@ const styles = StyleSheet.create({
     color: Colors.accent500,
     marginTop: 12,
     marginBottom: 18,
-    fontWeight: "bold",
-    textAlign: "center",
+    fontWeight: 'bold',
+    textAlign: 'center',
   },
   buttonsContainer: {
-    flexDirection: "row",
-    justifyContent: "space-evenly",
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
   },
   buttonContainer: {
     flex: 1,
