@@ -1,10 +1,12 @@
 # React Native Guess My Number Game App
 
-<img src="https://github.com/Krasilka/goals-app-rn/assets/14870744/dd264483-68b1-441c-b770-1aab4b190125" alt="StartGameScreen" width="200">
-<img src="https://github.com/Krasilka/goals-app-rn/assets/14870744/0daae003-5a0c-4f35-88ff-9f129121a8f7" alt="GameScreen" width="200">
-<img src="https://github.com/Krasilka/goals-app-rn/assets/14870744/4a359d11-404e-41b8-9fa9-c3b0393d83e2" alt="GameScreenWithLogging" width="200">
-<img src="https://github.com/Krasilka/goals-app-rn/assets/14870744/97b414f4-9ca0-48b5-987d-bf0dad663c5b" alt="GameOverScreen" width="200">
+<img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/90dd96b3-9987-4fb8-a6d6-9a6250216a49" alt="StartGameScreen" width="200">
+<img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/822a77df-0e82-4eae-924f-c0e3d4049fa7" alt="GameScreen" width="200">
+<img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/80c82001-f1b5-41f5-8e37-c6afd2cc69da" alt="GameScreenWithLogging" width="200">
+<img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/3070fc62-2074-47f8-8517-5ad4467d84cd" alt="GameOverScreen" width="200">
 
+
+#TODO: 
 ## Steps to run the project:
 
 ### Prerequisites:
