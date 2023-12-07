@@ -3,7 +3,7 @@
 <img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/90dd96b3-9987-4fb8-a6d6-9a6250216a49" alt="StartGameScreen" width="200">
 <img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/822a77df-0e82-4eae-924f-c0e3d4049fa7" alt="GameScreen" width="200">
 <img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/80c82001-f1b5-41f5-8e37-c6afd2cc69da" alt="GameScreenWithLogging" width="200">
-<img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/3070fc62-2074-47f8-8517-5ad4467d84cd" alt="GameOverScreen" width="200">
+<img src="https://github.com/Krasilka/guess-my-number-game-app/assets/14870744/cfe67908-3b0d-4163-a0e0-13c7c4994567" alt="GameOverScreen" width="200">
 
 
 #TODO: 
